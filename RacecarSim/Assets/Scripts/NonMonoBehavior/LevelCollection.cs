@@ -49,6 +49,49 @@ public class LevelCollection
     {
         new LevelCollection()
         {
+            DisplayName = "Final Challenge 2024",
+            ShortName = "Final2024",
+            Levels = new LevelInfo[]
+            {
+                new LevelInfo()
+                {
+                    DisplayName = "Time Trial 2024",
+                    //BuildIndex = 96,
+                    //IsRaceable = true,
+                    NumCheckpoints = 3,
+                    AutograderBuildIndex = 96,
+                    AutograderLevelCode = "final",
+                    AutograderLevels = new AutograderLevelInfo[]
+                    {
+                        new AutograderLevelInfo()
+                        {
+                            Title = "Time Trial 2024",
+                            Description = "Navigate through the course.",
+                            MaxPoints = 25,
+                            TimeLimit = 300,
+                            TimeBonuses = new Vector2[]{ new Vector2(75, 3), new Vector2(90, 2), new Vector2(120, 1), new Vector2(150, 0), new Vector2(180, -1), new Vector2(240, -3), new Vector2(float.PositiveInfinity, -5) }
+                        }
+                    }
+                },
+                new LevelInfo()
+                {
+                    DisplayName = "Time Trial Checkpoint1",
+                    BuildIndex = 98,
+                },
+                new LevelInfo()
+                {
+                    DisplayName = "Time Trial Checkpoint2",
+                    BuildIndex = 99,
+                },
+                new LevelInfo()
+                {
+                    DisplayName = "Time Trial Checkpoint3",
+                    BuildIndex = 97,
+                },
+            }
+        },
+        new LevelCollection()
+        {
             DisplayName = "Miscellaneous",
             ShortName = "Misc",
             Levels = new LevelInfo[]
@@ -700,26 +743,6 @@ public class LevelCollection
                         new AutograderLevelInfo()
                         {
                             Title = "Time Trial",
-                            Description = "Navigate through the course.",
-                            MaxPoints = 25,
-                            TimeLimit = 300,
-                            TimeBonuses = new Vector2[]{ new Vector2(75, 3), new Vector2(90, 2), new Vector2(120, 1), new Vector2(150, 0), new Vector2(180, -1), new Vector2(240, -3), new Vector2(float.PositiveInfinity, -5) }
-                        }
-                    }
-                },
-                new LevelInfo()
-                {
-                    DisplayName = "Time Trial 2024",
-                    BuildIndex = 96,
-                    IsRaceable = true,
-                    NumCheckpoints = 3,
-                    AutograderBuildIndex = 96,
-                    AutograderLevelCode = "final",
-                    AutograderLevels = new AutograderLevelInfo[]
-                    {
-                        new AutograderLevelInfo()
-                        {
-                            Title = "Time Trial 2024",
                             Description = "Navigate through the course.",
                             MaxPoints = 25,
                             TimeLimit = 300,
