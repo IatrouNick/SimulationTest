@@ -296,4 +296,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FinalAutograder/Final_TimeTrial2024.unity
     guid: 49429923ed35c8c41a6ceab3a9b57168
+  - enabled: 1
+    path: Assets/Scenes/FinalAutograder/Checkpoint3.unity
+    guid: c5720f2c563ed5342bfe179e7c74a626
+  - enabled: 1
+    path: Assets/Scenes/FinalAutograder/Checkpoint1.unity
+    guid: d78ca6bc90c9a5347b5685f626728636
+  - enabled: 1
+    path: Assets/Scenes/FinalAutograder/Checkpoint2.unity
+    guid: acbfce921a0c2404788ce439bbded422
   m_configObjects: {}

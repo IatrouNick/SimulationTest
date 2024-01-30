@@ -221,7 +221,7 @@ public class AutograderManager : MonoBehaviour
             AutograderManager.levelScores.Add(new AutograderLevelScore()
             {
                 Score = this.levelScore,
-                Time = Time.time - this.startTime ?? Time.time
+                Time = Time.time - this.startTime + LevelManager.TimePenalty ?? Time.time
             });
 
             if (AutograderManager.levelIndex == LevelManager.LevelInfo.AutograderLevels.Length - 1)
